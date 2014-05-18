@@ -1,0 +1,510 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Keres Wordpress Version Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Keres Wordpress Template&rdquo; Documentation by &ldquo;Peerapong Pulpipatnan&rdquo;</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Keres Wordpress Version&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 03/02/2013<br>
+					By: Peerapong Pulpipatnan</strong>
+				</p>
+				<p>
+					<a href="https://twitter.com/ipeerapong" class="twitter-follow-button" data-show-count="false" data-size="large">Follow me on Twitter</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to ask your question at the support site at <a href="http://support.themegoods.com/">http://support.themegoods.com/</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#gettingStarted">Getting Started</a></li>
+			<li><a href="#installation">Installation</a>
+				<ol>
+					<li>
+						<a href="#settingupheader">Setting up header</a>
+						<ul>
+							<li><a href="#settingupheader1">Setup Logo</a></li>
+							<li><a href="#settingupheader2">Setup Main Menu</a></li>
+							<li><a href="#settingupheader3">Setup Font</a></li>
+						</ul>	
+					</li>
+					<li>
+						<a href="#settingfooter">Setting up footer</a>
+						<ul>
+							<li><a href="#settingfooter1">Setup copyright text</a></li>
+							<li><a href="#settingfooter2">Setup social media profiles</a></li>
+							<li><a href="#settingfooter3">Setup footer widgets</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#settingupimagegallery">Setting up image gallery</a>
+						<ul>
+							<li><a href="#settingupimagegallery1">Setup gallery page</a></li>
+							<li><a href="#settingupimagegallery2">Setup fullscreen Youtube and Vimeo background page</a></li>
+							<li><a href="#settingupimagegallery3">Setup homepage gallery, header and music</a></li>
+							<li><a href="#settingupimagegallery4">Setup homepage as static page</a></li>
+						</ul>	
+					</li>
+					<li><a href="#settingupvideoportfolio">Setting up portfolio</a></li>
+					<li><a href="#elementscolors">Setting up Elements Colors, Font and Skin</a></li>
+					<li>
+						<a href="#settinguppagebackground">Setting up page background image and slideshow</a>
+						<ul>
+							<li><a href="#settinguppagebackground1">Setting up a background image to Archive, Category, Search, Tag pages</a></li>
+							<li><a href="#settinguppagebackground2">Setting up a background image to a page</a></li>
+							<li><a href="#settinguppagebackground3">Setting up a background slideshow to a page</a></li>
+							<li><a href="#settinguppagebackground4">Change theme default background image</a></li>
+							<li><a href="#settinguppagebackground5">Setting up music for page</a></li>
+						</ul>	
+					</li>
+					<li><a href="#settingupblog">Setting up blog</a></li>
+					<li><a href="#settingupcontact">Setting up contact</a></li>
+					<li><a href="#availableshortcode">Available Shortcodes</a></li>
+					<li><a href="#settingupwidgets">Setting up widgets</a></li>
+					<li><a href="#settinguppagesidebar">Setting up page sidebar</a></li>
+					<li><a href="#themetranslation">Theme Translation</a></li>
+					<li><a href="#enablebgimageadjust">Enable/disable background image adjustment</a></li>
+					<li><a href="#enablebgimagetitle">Enable/disable image title</a></li>
+					<li><a href="#manualcropping">Helper plugin to enable manual cropping</a></li>
+				</ol>
+			</li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="gettingStarted"><strong>A) Getting Started</strong> - <a href="#toc">top</a></h3>
+		<p>In order to begin installing Keres theme. You need the latest version of Wordpress. Here is <a href="http://wordpress.org/">the download URL</a>. Once you downloaded and set it up, You are ready to go.</p>
+		
+		<hr>
+		
+		<h3 id="installation"><strong>B) Installation</strong> - <a href="#toc">top</a></h4>
+		
+		<p>
+			Upon downloading the package, you will have an "Keres" folder inside the theme package. Upload this folder to your themes folder at: your WordPress installation root directory <strong>/wp-content/themes</strong>
+		</p>
+		
+		<p>
+			Log into WordPress administration and click on the <strong>Appearance > Themes</strong> tab. After that is done, activate the theme as you would activate any other theme.
+		</p>
+		
+		<p>
+			<strong>Notice:</strong> if you are new to WordPress and have problems installing it you might want to check out this link: <a hef="http://wiki.envato.com/buying/support-buying/solving-broken-theme-issues/">Solving broken theme issues</a>. After that is done activate the theme as you would activate any other theme at Appearance > Themes.
+Keres is now the active theme and you will be sent to the Themes Option Panel immediately.
+		</p>
+		
+		<p>
+			If you are new to WordPress and have problems with setting up the theme you might want to import the dummy content file <strong>(Keres_sample_content.xml)</strong> that comes with the theme. You can import this file by clicking Tools > Import > Wordpress. The theme will then import some dummy posts and pages from the live preview. However you will still need to set some options on your own ex. main menu and theme settings.
+		</p>
+		
+		<hr/>
+		
+		<h4 id="settingupheader">B 1) Setup header - <a href="#toc">top</a></h4>
+		
+		<h5 id="settingupheader1">B 1.1) Setup Logo - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/45-1.png" class="left" style="width:515px;"/>
+			Open Theme Setting > General > Logo then click upload button and save changes.
+		</p>
+		<br style="clear:both"/><br/>
+		
+		<h5 id="settingupheader2">B 1.2) Setup Main Menu and Top Menu - <a href="#toc">top</a></h5>
+		
+		<p>
+			Open  <strong>Appearance > Menus</strong> then click "Create Menu" name it <strong>"Main Menu"</strong>. Add items to your menu items and select menu location.	
+		</p>
+		
+		<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/Idt7oyCD1qY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Idt7oyCD1qY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+		<br/><br/>
+		
+		<p>
+			For those who are not familiar with Wordpress 3.0 menu below are some tutorials. 
+		</p>
+		
+		<ol>
+			<li><a href="http://templatic.com/news/wordpress-3-0-menu-management">http://templatic.com/news/wordpress-3-0-menu-management</a></li>
+			<li><a href="http://www.wonderhowto.com/how-to-use-new-menu-system-wordpress-3-0-thelonious-376792/">http://www.wonderhowto.com/how-to-use-new-menu-system-wordpress-3-0-thelonious-376792/</a></li>
+		</ol>
+		
+		<p>
+			<img src="assets/images/64.png" class="left" style="width:515px;"/>
+			You can also choose to always display main menu or hide it. Open Theme Setting > General > Always display main menu
+		</p>
+		<br style="clear:both"/>
+		<p>
+			If you want to change options of the Theme open the “Theme Setting” (located in your admin sidebar) and click it, you will notice several tabs with options.
+		</p>
+		<br/><br/>
+		
+		<h5 id="settingupheader3">B 1.3) Setup Font - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/54.png" class="left" style="width:515px;"/>
+			You can setup custom font from Google Webfont. Open Theme Setting > Font and select the font from "Header Font". The default font use on demo site is <strong>Open Sans</strong>. You can also setup all header tags font size, menu and sub menu font size too.
+		</p>
+		
+		<hr/>
+		
+		<h4 id="settingupfooter">B 2) Setup footer - <a href="#toc">top</a></h4>
+		
+		<h5 id="settingupfooter1">B 2.1) Setup copyright text - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/46.png" class="left" style="width:515px;"/>
+			Open Theme Setting > Footer > Footer text then enter your copyright text to textarea.
+		</p>
+		<br style="clear:both"/><br/>
+		
+		<h5 id="settingupheader2">B 2.2) Setup social media profiles - <a href="#toc">top</a></h5>
+		
+		<p>
+			You can setup social media profiles which display on page footer. From your admin sidebar, open Keres Admin Panel > Social-Profiles. Add your social profiles to enable them.
+		</p>
+		<br style="clear:both"/><br/>
+		
+		<h5 id="settingupheader2">B 2.3) Setup footer widgets - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/56.png" class="left" style="width:260px;"/>
+			You can setup widgets to "Footer Sidebar". Open Theme Setting > Footer and enable "Show Footer Sidebar". You can also select sidebar columns from 1, 2, 3 and 4 columns. Then open Appearance > Widgets and drag widget from the left side to "Footer Sidebar".
+		</p>
+		<br style="clear:both"/><br/>
+		
+		<hr/>
+		
+		<h4 id="settingupimagegallery">B 3) Setting up image gallery - <a href="#toc">top</a></h4>
+		
+		<h5 id="settingupimagegallery1">B 3.1) Setup gallery page - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/33.png" class="left"/>
+			First you have to create a gallery. From your admin sidebar, open <strong>Galleries > Add New</strong>. You will get add new gallery form. Enter gallery title and description then click "Publish".
+			<br/><br/>
+			Now you have 1 empty gallery. Next you have to add images to this gallery. From gallery admin page. Click on "Add New" next to "Gallery Images" text.
+			<br/><br/>
+			Then select images you want to upload to this gallery. Once you finish upload each image. It will automatically attach to this gallery. You can also change image title and description from this page. If you want to change order of images within gallery. You can easily drag&drop image next to each one. Once you finish dragging, click "Update" to save changes.
+		</p>
+		
+		<p>
+			<img src="assets/images/42.png" class="left"/>
+			OK now you have a image gallery. Next step is to add gallery page. Keres has 10 predefined gallery templates. From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>"Page Options" box</strong>. On gallery... templates, you can select "Static image" or "Slideshow" as page background. If you select "Slideshow" then you have to select "Background Gallery" for it. But if you choose "Static image", you have to upload "set featured image" for its background.
+			<br/><br/>
+			Then you have to select "Content Gallery". This is the main images contents display on page and every gallery templates have to had this option selected.
+			<br/><br/>
+			You can also add "Password Protected" for this individual gallery page. Just enter your gallery password and when visitor view your page, they will need to enter password, you have entered here. This is option is best for displaying image gallery for certain customers :)
+			<br/><br/>
+			Next look at <strong>Page Attributes" box</strong>. Keres has 10 predefined gallery templates and you can select one for this page :)
+			<br/><br/>
+			<img src="assets/images/30-1.png"/>
+		</p>
+		
+		<p>
+			<img src="assets/images/57.png" style="width:715px"/><br/>
+			Next look at <strong>Page Options" box</strong>. You can upload .mp3 music to the gallery and it will play automatically on your gallery page.
+		</p>
+		
+		<br/><br/>
+		
+		<h5 id="settingupimagegallery3">B 3.2) Setup fullscreen Youtube and Vimeo background page - <a href="#toc">top</a></h5>
+		
+		<h6>Fullscreen Youtube Video Page</h6><br/>
+		
+		<p>
+			<img src="assets/images/62.png" style="width:715px"/><br/>
+			From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>"Page Options" box</strong>. Enter your "Youtube Video ID" and select "Page Template" as "Fullscreen Youtube Video".
+		</p>
+		
+		<h6>Fullscreen Vimeo Video Page</h6><br/>
+		
+		<p>
+			<img src="assets/images/63.png" style="width:715px"/><br/>
+			From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>"Page Options" box</strong>. Enter your "Vimeo Video ID" and select "Page Template" as "Fullscreen Vimeo Video".
+		</p>
+		
+		<br/><br/>
+		
+		<h5 id="settingupimagegallery2">B 3.3) Setup homepage gallery, header and music - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/48.png" class="left" style="width:515px"/>
+		    Open Keres admin > Homepage and Select homepage gallery. You can also change homepage gallery style there.
+		    <br/><br/>
+		    Next you can insert music to your homepage gallery. Simply upload .mp3 file and click "Insert to post" button.
+		</p>
+		<br style="clear:both"/>
+		<p>
+			<img src="assets/images/58.png" class="left" style="width:515px"/>
+		    If you select "static image" as homepage style then you can upload background image in "Static Background Image Settings".
+		</p>
+		<br style="clear:both"/>
+		<p>
+			<img src="assets/images/59.png" class="left" style="width:515px"/>
+		    If you select "Fullscreen Youtube Video" as homepage style then you have to enter your Youtube video ID in "Fullscreen Youtube Video Settings"
+		</p>
+		<br style="clear:both"/>
+		<p>
+			<img src="assets/images/60.png" class="left" style="width:515px"/>
+		    If you select "Fullscreen Vimeo Video" as homepage style then you have to enter your Vimeo video ID in "Fullscreen Vimeo Video Settings"
+		</p>
+		
+		<br style="clear:both"/><br/>
+		
+		<h5 id="settingupimagegallery3">B 3.4) Setup homepage as static page - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/53.png" class="left" style="width:515px"/>
+		    You can also setup homepage content as static page (instead of image gallery). From your admin sidebar, open Settings > Reading> Front page displays then select "static page".
+		</p>
+		
+		<hr/>
+		
+		<h4 id="settingupvideoportfolio">B 4) Setting up portfolio - <a href="#toc">top</a></h4>
+		
+		<p>
+			<img src="assets/images/31.png" style="width:710px"/><br/>
+			First you have to create a portfolio item. From your admin sidebar, open <strong>Portfolios > Add New Portfolio</strong>. You will get add new portfolio form. Enter portfolio title and description.
+			<br/><br/>
+			Next look at <strong>"Portfolios Options" box</strong>. Select content type from "Image", "Youtube Video", "Vimeo Video", "Self-Hosted Video", "Portfolio Content" or "External Link". 
+			<br style="clear:both"/>
+			<ul>
+				<li>
+				If you select "Vimeo" or "Youtube" video type, you have to enter video ID ex. "cdygEzfbhqc" for Youtube and "27299211" for Vimeo.
+				</li>
+				<li>
+				If you select "Self-Hosted Video" type, you have to enter your video URL (.mp4 or .flv file format).
+				</li>
+				<li>
+				If you select "External Link", you have to enter "External Link URL". So when visitor click on this portfolio, they will be redirected to this URL.
+				</li>
+			</ul>
+			Next you have to upload image for this portfolio item. Look at <strong>"Featured Image" box</strong>. and upload your image.
+		</p>
+		<p>
+			<img src="assets/images/49-1.png" class="left" style="width:300px"/>
+			<img src="assets/images/49.png" class="left" style="width:200px"/>
+			OK now you have a portfolio item. Next step is to add portfolio page. From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>Page Attributes" box</strong>. Select <strong>"Portfolio…"</strong> related templates (there are 3 portfolio templates available) for page template and click on "Publish" :)
+			<br/><br/>
+			Next you can re order portfolio items. From your admin sidebar, open <strong>Portfolios > Re-Order</strong> and you can drag&drop to re order them. Once you finish, click on "Update".
+			<br/><br/>
+			You can also organise portfolio items into "set" (like portfolio categories). Once you assign portfolio to set. Go to appearance >menus. Then select which set you want to add to your menu items.
+			<br/><br/>
+			If you can't see it, click on screen option (top right) and check on sets
+		</p>
+		
+		<hr/>
+		
+		<h4 id="elementscolors">B 5) Setting up Elements Colors, Font and Skin - <a href="#toc">top</a></h4>
+
+		<p>
+			You can customize your site elements's colors, background, fonts and other settings. Then on the top right of Theme Setting, there is "Save as Skin" button. So once you finish customizing, you can easily save current setting as skin so later you can easily switch back to this setting.
+		</p>
+		
+		<hr/>
+		
+		<h4 id="settinguppagebackground">B 6) Setting up page background image and slideshow - <a href="#toc">top</a></h4>
+		
+		<br/>
+		
+		<h5 id="settinguppagebackground1">B 6.1) Setting up a background image to Archive, Category, Search, Tag pages - <a href="#toc">top</a></h5>
+		
+		<p>
+			Open Keres admin > Archive, Category, Search, Tag pages Background Image and Select image for blog background (Recommended size 1440x900 pixels)
+		</p>
+		
+		<br/>
+		
+		<h5 id="settinguppagebackground2">B 6.2) Setting up a background image to a page - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/37.png" class="left"/>
+			From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>"Page Options" box</strong>. Select "Static image" as page background then you have to upload "set featured image" for its background. Click on "Set featured image" to upload preview image for this post. Once uploaded click "Use as featured image".
+		</p>
+		
+		<br/>
+		
+		<h5 id="settinguppagebackground3">B 6.3) Setting up a background slideshow to a page - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/30-4.png" class="left"/>
+			From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>"Page Options" box</strong>. Select "Slideshow" as page background as page background then you have to select "Background Gallery" for its background.
+		</p>
+		
+		<br/>
+		
+		<h5 id="settinguppagebackground4">B 6.4) Change theme default background image - <a href="#toc">top</a></h5>
+		
+		<p>
+			You can replace theme's default background image by replacing "bg.jpg" in /example folder of the theme. 
+		</p>
+		
+		<br/>
+		
+		<h5 id="settinguppagebackground5">B 6.5) Setting up music for page - <a href="#toc">top</a></h5>
+		
+		<p>
+			<img src="assets/images/55.png" class="left" style="width:800px;"/>
+			From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>"Page Options" box</strong>. There is a "Page Background Audio" option. You can upload .mp3 file and click "Insert to post" button to attach music to the page.
+		</p>
+		
+		
+		<hr/>
+		
+		<h4 id="settingupblog">B 7) Setting up blog - <a href="#toc">top</a></h4>
+		
+		<p>
+			<img src="assets/images/30.png" class="left"/>
+			First, you have to create some blog post which is basic stuff. You can find many tutorials from Google :) (or just play around with posts on your admin dashboard). Next step, I will guide you how to create a blog page to display these posts.
+			<br/><br/>
+			From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>Page Attributes" box</strong>. Select <strong>"Blog"</strong> for page template and click on "Publish" :)
+		</p>
+		
+		<hr/>
+		
+		<h4 id="settingupcontact">B 8) Setting up contact - <a href="#toc">top</a></h4>
+		
+		<p>
+			<img src="assets/images/32.png" class="left"/>
+			First, you have to setup your email address. Open Keres Admin Panel > General and setup your email address.
+			<br/><br/>
+			From your admin sidebar, open <strong>Pages > Add New</strong>. You will get add new page form. Enter page title and description.
+			<br/><br/>
+			Next look at <strong>Page Attributes" box</strong>. Select <strong>"Contact"</strong> for page template and click on "Publish" :)
+			<br/><br/>
+			You can also add widgets to <strong>"Contact Sidebar"</strong> on Appearance > widgets.
+		</p>
+		
+		<p>
+			<img src="assets/images/61.png" style="width:515px" class="left"/>
+			You can enable Google Map as contact page's background. Open Theme Setting > Contact and enable "Show map in contact page" then setup your contact address latitude and longitude values.
+		</p>
+		
+		<hr/>
+		
+		<h4 id="availableshortcode">B 13) Available Shortcodes - <a href="#toc">top</a></h4>
+		
+		<p>
+			<img src="assets/images/52.png" class="left" style="width:300px;"/>
+			Keres has many built-in custom shortcodes. You can see full lists of them and get sample code from <a href="http://themes.themegoods.com/Keres_wp/">Keres demo site</a>. You can also use shortcode generator to generate sample code of theme shortcodes.
+			<br/><br/>
+		</p>
+		
+		<hr>
+		
+		<h4 id="settingupwidgets">B 10) Setting up widgets - <a href="#toc">top</a></h4>
+		
+		<p>
+			However the homepage sidebar is support all Wordpress 3.0 widgets. I created 8 custom widgets to make your website more interesting.
+		</p>
+		
+		<p>
+			You can also add your sidebar via Admin panel.
+		</p>
+		
+		<p>
+			<img src="assets/images/51.png" class="left" style="width:800px"/>
+			To add content to sidebar simple go to <strong>Appearance > Widgets</strong> and drag item into certain sidebar.
+		</p>
+		
+		<hr/>
+		
+		<h4 id="settinguppagesidebar">B 11) Setting up page sidebar - <a href="#toc">top</a></h4>
+		
+		<p>
+			<img src="assets/images/40.png" class="left"/>
+			When you create a page. There is an options to Select Sidebar" and select page template as "Page with Sidebar"
+		</p>
+		
+		<hr/>
+		
+		<h4 id="themetranslation">B 12) Theme Translation - <a href="#toc">top</a></h4>
+		
+		<p>
+			You need an application name "PoEdit" and you can download it for FREE here <a href="http://www.poedit.net/">http://www.poedit.net/</a>. 
+		</p>
+		
+		<p>
+			Once you download and install it. Open file /languages/en_US.po with PoEdit then translate it to yours. You will need to upload all files in /languages folder to your server once you finished translate.
+		</p>
+		
+		<hr>
+		
+		<h4 id="enablebgimageadjust">B 13) Enable/disable background image adjustment - <a href="#toc">top</a></h4>
+		
+		<p>
+			If you selected background slideshow on page. It will automatically adjust your image size (cropped or resized) to works perfectly with visitor screen resolutions. However you might not want to crop your images. You can disable it. From your admin sidebar, open Keres admin > Homepage > Enable/disable auto fit image to screen for homepage slideshow and Keres admin > Gallery Portfolio > Enable/disable auto fit image to screen for other pages.
+		</p>
+		
+		<hr/>
+		
+		<h4 id="enablebgimagetitle">B 14) Enable/disable image title - <a href="#toc">top</a></h4>
+		
+		<p>
+			<img src="assets/images/43.png" class="left"/>
+			You can enable image title to display small description text of your photos. From your admin sidebar, open <strong>Galleries</strong> and click on gallery you want to change its image title. Click on image and you will see "Edit Media" form. Enter image title and click "Update Media".
+			<br/><br/>
+			Once you finish editing images title. You can enable or disable it via Keres admin. From your admin sidebar, open Keres admin > Gallery Portfolio > Enable/disable image title and description for other gallery pages.
+		</p>
+		
+		<hr/>
+		
+		<h4 id="manualcropping">B 15) Helper plugin to enable manual cropping - <a href="#toc">top</a></h4>
+		
+		<p>
+			You have images which are cropped to fit with gallery images size and sometimes cropping might cur important part of image which you want to avoid. You can use <a href="http://wordpress.org/extend/plugins/post-thumbnail-editor/">this plugin</a> to enable manual cropping. 
+		</p>
+		
+		<hr/>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Peerapong Pulpipatnan</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

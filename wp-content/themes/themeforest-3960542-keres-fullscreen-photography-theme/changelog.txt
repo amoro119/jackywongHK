@@ -1,0 +1,37 @@
+----------------------------------------------------------------------------
+   Release notes for Theme
+----------------------------------------------------------------------------
+
+   Theme Name: Keres
+
+   Version: 1.2.3
+
+   by Peerapong
+   http://themeforest.net/user/peerapong
+
+
+----------------------------------------------------------------------------
+  Change log
+----------------------------------------------------------------------------
+
+= V1.0 - 06.02.2013 =
+* Initial Release
+
+= V1.01 - 07.02.2013 =
+* Fix gallery music issue on Firefox
+
+= V1.1 - 10.02.2013 =
+* Fix main menu issue on Opera
+* Add instagram to Social Profile module
+
+= V1.2 - 12.02.2013 =
+* Fix add media button issue on edit page/post page
+
+= V1.2.1 - 21.02.2013 =
+* Fix gallery short code conflict with Wordpress one
+
+= V1.2.2 - 28.02.2013 =
+* Fix backslash issue on footer content
+
+= V1.2.3 - 03.03.2013 =
+* Add option to disable overlay background on fullscreen slideshow
